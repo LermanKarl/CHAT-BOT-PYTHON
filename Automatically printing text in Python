@@ -1,0 +1,7 @@
+import pyautogui
+
+#  НАПЕЧАТАЕТ ТЕКСТ МГНОВЕННО
+pyautogui.typewrite('nikita smirnov')
+
+#  ПАУЗА В 0.20СЕК ПОСЛЕ КАЖДОГО СИМВОЛА
+pyautogui.typewrite('nikita smirnov', interval = 0.20)
