@@ -1,0 +1,17 @@
+# pip install -U pyautogui
+import time
+import pyautogui
+
+time.sleep(5)
+
+
+
+
+with open('222.txt') as file:
+
+
+
+
+    for word in file:
+        pyautogui.typewrite(word)
+        pyautogui.press('enter')
