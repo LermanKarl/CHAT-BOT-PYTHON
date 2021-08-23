@@ -1,0 +1,25 @@
+from time import sleep
+
+import keyboard as key
+import mouse
+import pyautogui
+from colorama import Fore
+from colorama import init
+
+
+
+
+init()
+
+print(Fore.GREEN)
+start_key = input('Кнопка запуска: ')
+print(Fore.RED)
+stop_key = input('Кнопка выключения: ')
+
+while True:
+    if key.is_pressed(start_key):
+        sleep(0.01)
+    mouse.double_click(button='left')
+    if key.is_pressed(stop_key):
+        break
+
