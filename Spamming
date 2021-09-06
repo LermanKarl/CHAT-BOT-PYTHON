@@ -15,3 +15,18 @@ with open('222.txt') as file:
     for word in file:
         pyautogui.typewrite(word)
         pyautogui.press('enter')
+
+
+#_________________________________________________________________________
+
+
+import  pyautogui
+import time
+
+
+time.sleep(5)
+
+with open('data/text.txt') as file:
+    for word in file:
+        pyautogui.typewrite(word)
+        pyautogui.press('enter')
